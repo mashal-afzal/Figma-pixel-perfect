@@ -1,0 +1,22 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Clash Display';
+  src: url("/ClashDsiplay-Regular.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+font-family:'Satoshi';
+src: url("/Satoshi-Regular.ttf") format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+  font-family:'Satoshi';
+  src: url("/Satoshi-Medium.otf");
+}
+
+body{font-family: 'Satoshi-Medium','Satoshi-Regular', 'Clash Display', 'sans-serif'};
